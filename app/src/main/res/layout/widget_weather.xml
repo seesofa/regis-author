@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Виджет содержит текстовые поля для отображения погодных данных -->
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewFeelsLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Иконка погоды -->
+    <ImageView
+        android:id="@+id/imageViewWeatherIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Кнопка "Обновить данные" -->
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить данные" />
+
+</LinearLayout>
